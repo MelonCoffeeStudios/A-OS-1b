@@ -1,5 +1,11 @@
 # A-OS-1b
-To start:
+To start(Easy):
+```
+chmod +x results.sh
+./results.sh
+```
+
+Other way:
 ```
 as -o mywc.o mywc.s
 gcc -o mywc mywc.o
