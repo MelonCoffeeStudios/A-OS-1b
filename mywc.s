@@ -5,8 +5,6 @@
 	.global	main
 	.type	main, %function
 main:
-	@ args = 0, pretend = 0, frame = 0
-	@ frame_needed = 0, uses_anonymous_args = 0
 	stmfd	sp!, {r4, r5, r6, r7, r8, lr}
 	mov	r7, #0
 	ldr	r4, .pt5
